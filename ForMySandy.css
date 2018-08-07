@@ -1,0 +1,18 @@
+#main_background{
+    background-color: gainsboro;
+}
+
+#main_picture{
+    margin-left:65px;
+    margin-right: 65px;
+    margin-bottom: 20px; 
+    border-color: white;
+    border: 1px;
+    padding: 4px;
+}
+
+#main_picture .caption{
+    background-color: white;
+    padding-top: 9px;
+    padding-bottom: 9px;
+}
