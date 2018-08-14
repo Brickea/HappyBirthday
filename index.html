@@ -21,7 +21,7 @@
                         <em>The woman who Brickea loves</em>
                     </h2>
                     <div id="main_picture">
-                        <img class="img-responsive center-block" id="picture" src="Sandy1.jpg">
+                        <img class="img-responsive center-block" id="picture" src="">
                         <div class="caption text-center">
                             Happy birthday my honey.
                         </div>
@@ -40,15 +40,13 @@
     </div>
     <script src="https://cdn.bootcss.com/jquery/1.10.2/jquery.min.js"></script>
     <script>
-        setInterval(function () {
-            console.log("monitor");
-            if (document.body.clientWidth < 500) {
-                $("#picture").prop("src", "Sandy2.jpg");
-            }
-            else {
-                $("#picture").prop("src", "Sandy1.jpg");
-            }
-        }, 100)
+        console.log("monitor");
+        if (document.body.clientWidth < 500) {
+            $("#picture").prop("src", "Sandy2.jpg");
+        }
+        else {
+            $("#picture").prop("src", "Sandy1.jpg");
+        }
 
     </script>
 </body>
